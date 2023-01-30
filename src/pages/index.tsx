@@ -23,7 +23,7 @@ export default function Home() {
   }
 
   function clienteExcluido(cliente: Cliente) {
-    console.log(cliente.nome)
+    console.log(`Excluir... ${cliente.nome}`)
   }
 
   function salvarCliente(cliente:Cliente) {
